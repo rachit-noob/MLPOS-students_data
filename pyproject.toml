@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "openssl==1-1-2"
+version = "1.1.2"
+description = ""
+authors = ["rachit-noob <rachitkumarsinghismyname@gmail.com>"]
+readme = "README.md"
+packages = [{include = "openssl==1"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
